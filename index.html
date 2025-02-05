@@ -114,6 +114,13 @@
         .hobby:nth-child(even) {
             flex-direction: row-reverse; /* For alternating the order of image and text */
         }
+        .education {
+            display: flex;
+            justify-content: space-between;
+        }
+        .education-item {
+            width: 48%;
+        }
     </style>
 </head>
 <body>
@@ -134,6 +141,19 @@
             <p>Email: luistorescastellanos@gmail.com</p>
             <p>Phone: +44 7861 2766 82</p>
             <p><a href="https://www.linkedin.com/in/luistorrescastellanos">LinkedIn</a></p>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <div class="education-item">
+                    <h3>M.Sc, Data Science</h3>
+                    <p>University of East Anglia, Norwich, United Kingdom, 2022</p>
+                </div>
+                <div class="education-item">
+                    <h3>Industrial Production and Administration</h3>
+                    <p>Universidad del Norte Engineer's degree, Barranquilla, Colombia (2006 - 2010)</p>
+                </div>
+            </div>
         </div>
         <div class="section">
             <h2>Professional Experience</h2>
@@ -164,18 +184,9 @@
             </div>
         </div>
         <div class="section">
-            <h2>Education</h2>
-            <div class="education">
-                <h3>M.Sc, Data Science</h3>
-                <p>University of East Anglia, Norwich, United Kingdom, 2022</p>
-                <h3>Industrial Production and Administration </h3>
-                <p>Universidad del Norte Engineer's degree, Barranquilla, Colombia (2006 - 2010)</p>
-            </div>
-        </div>
-        <div class="section">
             <h2>Skills</h2>
-            <p>SQL; Power BI; MS Office Tableau ;ETL; DBT; Airflow; Python; 
-Data Mining; Business Intelligence; Marketing Strategy;  Pricing Strategy</p>
+            <p>SQL; Power BI; MS Office Tableau; ETL; DBT; Airflow; Python; 
+                Data Mining; Business Intelligence; Marketing Strategy; Pricing Strategy</p>
         </div>
     </div>
     <div class="container">
@@ -205,7 +216,7 @@ Data Mining; Business Intelligence; Marketing Strategy;  Pricing Strategy</p>
                 </div>
             </div>
             <div class="hobby">
-                <img src="guitar.jpg" alt="GuitarImage">
+                <img src="guitar.jpg" alt="Guitar Image">
                 <div>
                     <h3>Guitar</h3>
                     <p>I like to play electric guitar in my free time. I used to play acoustic but there is something about the pedals and the tube amps
