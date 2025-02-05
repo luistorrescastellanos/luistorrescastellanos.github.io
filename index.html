@@ -6,23 +6,18 @@
     <title>Professional CV</title>
     <style>
         body {
-    font-family: Arial, sans-serif;
-    background-image: url('mick-haupt-.jpg'),url('mountain.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-       }
-
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
         .button-container {
             display: flex;
             justify-content: center;
             gap: 20px;
             padding: 20px;
-            background-color: #34495e;  /* Lighter dark background for the button container */
+            background-color: #2c3e50;  /* Dark blue for buttons container */
         }
         .button-container button {
             padding: 10px 20px;
@@ -37,21 +32,22 @@
         .button-container button:hover {
             background-color: #1c5980; /* Darker blue when hovering */
         }
-
         .container {
             width: 60%;
             margin: 50px auto;
-            background: #34495e;
+            background: white;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .header {
             text-align: center;
             padding-bottom: 20px;
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #2980b9;
         }
         .header h1 {
             margin: 0;
+            font-size: 2em;
+            color: #2980b9;
         }
         .header p {
             color: #777;
@@ -60,39 +56,31 @@
             margin: 20px 0;
         }
         .section h2 {
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #2980b9;
             padding-bottom: 5px;
+            color: #2980b9;
         }
-        .job {
+        .job, .education {
             margin-bottom: 10px;
         }
         .job h3, .education h3 {
             margin: 5px 0;
-            color: #333;
+            color: #2980b9;
         }
         .job p, .education p {
             margin: 2px 0;
             color: #555;
         }
-        
-        .Hobbies {
+        .hobbies {
             padding: 20px;
-            background-color: #1abc9c; /* Light green background for hobbies section */
+            background-color: #ecf0f1; /* Light grey for hobbies section */
             border-radius: 8px;
         }
-        .Hobbies h2 {
-            color: #ecf0f1; /* Light color for the heading */
+        .hobbies h2 {
+            color: #2980b9;
         }
-        .Hobbies p {
-            color: #ecf0f1; /* Light color for text */
-            font-size: 16px;
-        }
-        .Hobbies a {
-            color: #f39c12; /* Orange color for links */
-            text-decoration: none;
-        }
-        .Hobbies a:hover {
-            text-decoration: underline; /* Underline link on hover */
+        .hobbies p, .hobbies a {
+            color: #555;
         }
         .hobby {
             display: flex;
@@ -111,7 +99,7 @@
     </style>
 </head>
 <body>
-      <div class="button-container">
+    <div class="button-container">
         <button>Button 1</button>
         <button>Button 2</button>
         <button>Button 3</button>
@@ -123,37 +111,33 @@
                 Product Management, and Digital Transformation | 
                 Eager to leverage skills to drive innovation and business growth.</p>
         </div>
-        
-        
         <div class="section">
             <h2>Contact Information</h2>
             <p>Email: luistorescastellanos@gmail.com</p>
             <p>Phone: +44 7861 2766 82</p>
-            <p> <a href="https://www.linkedin.com/in/luistorrescastellanos">LinkedIn</a></p>
+            <p><a href="https://www.linkedin.com/in/luistorrescastellanos">LinkedIn</a></p>
         </div>
-        
         <div class="section">
             <h2>Professional Experience</h2>
             <div class="job">
                 <h3>Data Science/Analyst Engineer</h3>
-                <p> You can refer to my <a href="https://www.linkedin.com/in/luistorrescastellanos">
+                <p>You can refer to my <a href="https://www.linkedin.com/in/luistorrescastellanos">
                      LinkedIn profile </a> but summarizing my professional journey:</p>
-                <p> I am an experienced data professional with a strong background in data science, analytics, 
-                    and pricing strategy. 
-                    With over 10 years of experience in data analysis, I have successfully supported product development, 
-                    pricing strategies, business planning, and marketing initiatives across diverse markets. 
-                    My expertise lies in identifying business challenges and addressing actionable insights to 
-                    empower teams and drive improved performance.</p>
-                <p> In recent years, I have significantly enhanced my skill set, gaining extensive expertise
-                    in working with big data. 
-                    My daily responsibilities involve transforming complex datasets into actionable 
-                    insights by identifying the most effective ways to visualise data, tailored to meet customer needs.</p>
-                <p> Proficient in SQL, Python, DBT, and Airflow, with expertise in automating workflows, 
-                    enhancing data quality, and driving business performance through analytics. 
-                    Extensive experience in customer behavior analysis, pricing competitiveness, and 
-                    financial forecasting across insurance, technology, and retail sectors. 
-                    Adept at stakeholder engagement, translating business requirements into data-driven solutions, 
-                    and effectively communicating complex technical concepts to diverse audiences.</p> 
+                <p>I am an experienced data professional with a strong background in data science, analytics, 
+                    and pricing strategy. With over 10 years of experience in data analysis, I have successfully 
+                    supported product development, pricing strategies, business planning, and marketing initiatives 
+                    across diverse markets. My expertise lies in identifying business challenges and addressing 
+                    actionable insights to empower teams and drive improved performance.</p>
+                <p>In recent years, I have significantly enhanced my skill set, gaining extensive expertise
+                    in working with big data. My daily responsibilities involve transforming complex datasets 
+                    into actionable insights by identifying the most effective ways to visualise data, tailored 
+                    to meet customer needs.</p>
+                <p>Proficient in SQL, Python, DBT, and Airflow, with expertise in automating workflows, 
+                    enhancing data quality, and driving business performance through analytics. Extensive 
+                    experience in customer behavior analysis, pricing competitiveness, and financial forecasting 
+                    across insurance, technology, and retail sectors. Adept at stakeholder engagement, translating 
+                    business requirements into data-driven solutions, and effectively communicating complex 
+                    technical concepts to diverse audiences.</p> 
             </div>
             <div class="job">
                 <h3>Data Analyst - ABC Ltd</h3>
@@ -161,7 +145,6 @@
                 <p>Analyzed data trends and built predictive models.</p>
             </div>
         </div>
-        
         <div class="section">
             <h2>Education</h2>
             <div class="education">
@@ -169,19 +152,15 @@
                 <p>University of Example, 2013 - 2017</p>
             </div>
         </div>
-        
         <div class="section">
             <h2>Skills</h2>
             <p>Python, SQL, JavaScript, HTML/CSS, Data Analysis, Machine Learning</p>
         </div>
     </div>
-    <!-- Hobbies Section -->
     <div class="container">
-        <div class="Hobbies">
+        <div class="hobbies">
             <h2>Hobbies & What I Do When I'm Not Working</h2>
             <p>When I'm not working, I enjoy a variety of activities that help me stay balanced and energized. Some of my hobbies include:</p>
-
-            <!-- Hobby 1: Climbing -->
             <div class="hobby">
                 <img src="climinb_wall.jpg" alt="Climbing Image">
                 <div>
@@ -189,8 +168,6 @@
                     <p>I'm a regular climber, climbing once or twice a week. I love the challenge it brings and the connection with nature.</p>
                 </div>
             </div>
-
-            <!-- Hobby 2: Snowboarding -->
             <div class="hobby">
                 <img src="snowboard.jpg" alt="Snowboarding Image">
                 <div>
@@ -198,8 +175,6 @@
                     <p>I'm an advanced beginner in snowboarding, but I enjoy learning and spending time in the mountains. It's a great way to stay active in the winter.</p>
                 </div>
             </div>
-
-            <!-- Hobby 3: Playing Guitar -->
             <div class="hobby">
                 <img src="guitar.jpg" alt="Running Image">
                 <div>
@@ -207,8 +182,6 @@
                     <p>I'm currently training for a 10 km run, running 2-3 times a week to stay in shape and improve my endurance.</p>
                 </div>
             </div>
-
-            <!-- Hobby 4: Reading -->
             <div class="hobby">
                 <img src="reading.jpg" alt="Reading Image">
                 <div>
@@ -216,10 +189,8 @@
                     <p>I like to read books on business intelligence, data science, and product development. It's a great way to relax and learn something new.</p>
                 </div>
             </div>
-
             <p>Outside of these activities, I also like to travel, explore new places, and spend quality time with my partner and friends.</p>
         </div>
     </div>
-        
 </body>
 </html>
