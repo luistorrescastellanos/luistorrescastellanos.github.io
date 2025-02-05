@@ -74,6 +74,40 @@
             margin: 2px 0;
             color: #555;
         }
+        
+        .Hobbies {
+            padding: 20px;
+            background-color: #1abc9c; /* Light green background for hobbies section */
+            border-radius: 8px;
+        }
+        .Hobbies h2 {
+            color: #ecf0f1; /* Light color for the heading */
+        }
+        .Hobbies p {
+            color: #ecf0f1; /* Light color for text */
+            font-size: 16px;
+        }
+        .Hobbies a {
+            color: #f39c12; /* Orange color for links */
+            text-decoration: none;
+        }
+        .Hobbies a:hover {
+            text-decoration: underline; /* Underline link on hover */
+        }
+        .hobby {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .hobby img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin: 0 20px;
+        }
+        .hobby:nth-child(even) {
+            flex-direction: row-reverse; /* For alternating the order of image and text */
+        }
     </style>
 </head>
 <body>
@@ -141,5 +175,51 @@
             <p>Python, SQL, JavaScript, HTML/CSS, Data Analysis, Machine Learning</p>
         </div>
     </div>
+    <!-- Hobbies Section -->
+    <div class="container">
+        <div class="Hobbies">
+            <h2>Hobbies & What I Do When I'm Not Working</h2>
+            <p>When I'm not working, I enjoy a variety of activities that help me stay balanced and energized. Some of my hobbies include:</p>
+
+            <!-- Hobby 1: Climbing -->
+            <div class="hobby">
+                <img src="climbing.jpg" alt="Climbing Image">
+                <div>
+                    <h3>Climbing</h3>
+                    <p>I'm a regular climber, climbing once or twice a week. I love the challenge it brings and the connection with nature.</p>
+                </div>
+            </div>
+
+            <!-- Hobby 2: Snowboarding -->
+            <div class="hobby">
+                <img src="snowboarding.jpg" alt="Snowboarding Image">
+                <div>
+                    <h3>Snowboarding</h3>
+                    <p>I'm a beginner in snowboarding, but I enjoy learning and spending time in the mountains. It's a great way to stay active in the winter.</p>
+                </div>
+            </div>
+
+            <!-- Hobby 3: Running -->
+            <div class="hobby">
+                <img src="running.jpg" alt="Running Image">
+                <div>
+                    <h3>Running</h3>
+                    <p>I'm currently training for a 10 km run, running 2-3 times a week to stay in shape and improve my endurance.</p>
+                </div>
+            </div>
+
+            <!-- Hobby 4: Reading -->
+            <div class="hobby">
+                <img src="reading.jpg" alt="Reading Image">
+                <div>
+                    <h3>Reading</h3>
+                    <p>I like to read books on business intelligence, data science, and product development. It's a great way to relax and learn something new.</p>
+                </div>
+            </div>
+
+            <p>Outside of these activities, I also like to travel, explore new places, and spend quality time with my partner and friends.</p>
+        </div>
+    </div>
+        
 </body>
 </html>
