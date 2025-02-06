@@ -130,6 +130,19 @@
             width: 48%;
             margin-bottom: 10px;
         }
+        .about-me {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .bubble {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -149,7 +162,9 @@
        
         <div class="section">
             <h2>About me</h2>
-            <div class="job">
+            <div class="about-me">
+                <img src="me.jpeg" alt="Your Picture" class="bubble">
+                <div class="job">
             
                 <p>You can refer to my <a href="https://www.linkedin.com/in/luistorrescastellanos">
                      LinkedIn profile </a> but summarizing my professional journey:</p>
@@ -168,7 +183,9 @@
                     across insurance, technology, and retail sectors. Adept at stakeholder engagement, translating 
                     business requirements into data-driven solutions, and effectively communicating complex 
                     technical concepts to diverse audiences.</p> 
+               </div>
             </div>
+        </div>
            
         </div>
         <div class="section">
